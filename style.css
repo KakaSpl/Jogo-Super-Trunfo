@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url(img/cenario-dragon-ball.jpg);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #20A912;
+    font-size: 3rem;
+    margin: 5px 0;
+}
+
+button {
+    width: 10rem;
+    max-width: 10rem;
+    padding: .8rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    background: #21a912b2;
+    color:  #f77104;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 5px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+.resultado-final {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#placar, #quantidade-cartas {
+    color:  #f77104;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+#versus {
+    color:  #f77104;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-top: 200px;
+}
